@@ -1,0 +1,241 @@
+body {
+    /* background: linear-gradient(0,rgb(158, 158, 158), white);     */
+    background-color: rgb(206, 206, 206);
+    margin: 0px;
+}
+
+#part1 {
+    background-image: url('background image.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+}
+.navbar{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+header {
+    height: 120px;
+    width: auto;
+    color: white;
+
+}
+
+.title {
+    margin-left: auto;
+    margin-right: auto;
+    height: 120px;
+    margin-top: 0px;
+    display: block;
+    margin-bottom: 0px;
+    cursor: pointer;
+    transition: 0.15s;
+}
+
+.title:hover {
+    opacity: 0.7;
+}
+
+li {
+    list-style-type: none;
+    font-family: Arial;
+    font-weight: bold;
+    cursor: pointer;
+    display: inline;
+    margin-left: 40px;
+    vertical-align: middle;
+
+}
+
+.first {
+    margin-left: 0px
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    transition: 0.15s;
+}
+
+a:hover {
+    /* color: rgb(80, 80, 80); */
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+}
+
+.search-icon {
+    height: 25px;
+    padding-bottom: 3px;
+    transition: 0.15s;
+    margin-right: 0px;
+}
+
+.search-icon:hover {
+    filter: contrast(50%);
+
+}
+
+.search-bar {
+    height: 30px;
+    width: 150px;
+    margin-left: -40px;
+    border-radius: 13px;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    background: linear-gradient(0, rgb(185, 185, 185), rgb(184, 184, 184));
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+
+
+}
+
+::placeholder {
+    color: black;
+
+}
+
+.front-text {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 39px;
+    text-align: center;
+    width: 800px;
+    margin-left: 120px;
+    font-weight: bold;
+    line-height: 60px;
+
+}
+ 
+.part-2{
+background-image: url("background-signup1.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+position: relative;
+
+}
+#signup { 
+    width: 400px;
+    
+    height: 720px;
+    margin: auto;
+    position: relative;
+    border-radius: 4px;
+    background-color: rgb(249, 245, 245);
+}
+#login{
+    width: 400px;
+    height: 600px;
+    margin: auto;
+    position: relative;
+    border-radius: 4px;
+    background-color: rgb(249, 245, 245);
+
+}
+.titre1{
+    text-align: center;
+    padding-top: 50px;
+}
+.titre2{
+    text-align: center;
+}
+form{
+    width: 300px;
+    margin-left: 20px;
+    margin-top: 40px;
+}
+form label{
+    display: flex;
+    margin-top: 20px;
+    font-size: 18px;
+}
+form input {
+    width: 100%;
+    padding: 7px;
+    border: none;
+    border: 1px solid gray;
+    border-radius: 6px;
+    outline: none;
+}
+input[type="submit"] {
+    width: 320px;
+    height: 35px;
+    margin-top: 20px;
+    border: none;
+    background-color: rgb(165, 156, 156);
+    color: rgb(36, 38, 21);
+    font-size: 18px;
+    cursor: pointer; 
+    transition: background-color 0.3s ease; 
+}
+
+input[type="submit"]:hover {
+    background-color: rgb(145, 136, 136); /* Couleur légèrement plus sombre */
+}
+
+
+input[type="submit"]:active {
+    transform: scale(0.95); 
+}
+
+
+.extr{
+    text-align: center;
+    padding-top:20px ;
+    font-size: 30px;
+    margin-top: -10px;
+    color: rgb(47, 43, 43);
+
+}
+.extr-1{
+    text-align: center;
+    padding-top:20px ;
+    font-size: 15px;
+    margin-top: -10px;
+    color: rgb(47, 43, 43);
+
+}
+.extr a{
+    color: rgb(178, 97, 15);
+}
+.end {
+    background-color: rgb(255, 255, 255);
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.endpic {
+    height: 85px;
+    width: 265px;
+    padding-top: 10px;
+
+}
+.copy{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.endl{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    width: 300px;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+.endm{
+    width: 300px;
+}
+.endpics{
+    height: 30px;
+    margin-top: 20px;
+}
+.endpar{
+    width: 90px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+}

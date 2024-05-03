@@ -1,0 +1,242 @@
+body {
+    /* background: linear-gradient(0,rgb(158, 158, 158), white);     */
+    background-color: rgb(206, 206, 206);
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+#part1 {
+    background-image: url('background image.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+}
+
+header {
+    height: 120px;
+    width: auto;
+    color: white;
+
+}
+
+.firstimage {
+    height: 120px;
+    width: 388px;
+}
+
+.title {
+    margin-left: auto;
+    margin-right: auto;
+    height: 120px;
+    margin-top: 0px;
+    display: block;
+    margin-bottom: 0px;
+    cursor: pointer;
+    transition: 0.15s;
+}
+
+.title:hover {
+    opacity: 0.7;
+}
+
+.nav-li {
+    list-style-type: none;
+    font-family: Arial;
+    font-weight: bold;
+    cursor: pointer;
+    display: inline;
+    margin-left: 40px;
+    vertical-align: middle;
+
+}
+
+.first {
+    margin-left: 0px;
+    list-style-type: none;
+    font-family: Arial;
+    font-weight: bold;
+    cursor: pointer;
+    display: inline;
+    vertical-align: middle;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    transition: 0.15s;
+}
+
+a:hover {
+    /* color: rgb(80, 80, 80); */
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+}
+
+.search-icon {
+    height: 25px;
+    padding-bottom: 3px;
+    transition: 0.15s;
+    margin-right: 0px;
+}
+
+.search-icon:hover {
+    filter: contrast(50%);
+
+}
+
+.search-bar {
+    height: 30px;
+    width: 150px;
+    margin-left: -40px;
+    border-radius: 13px;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    background: linear-gradient(0, rgb(185, 185, 185), rgb(184, 184, 184));
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+
+
+}
+
+::placeholder {
+    color: black;
+
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+.submittext {
+    width: 943px;
+    margin-left: 50px;
+    height: 150px;
+    background-color: rgb(241, 241, 241);
+    border-style: solid;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+::placeholder {
+    left: 0px;
+    top: 0;
+    font-size: 20px;
+    vertical-align: 0;
+    text-align: unset;
+    color: grey
+}
+
+.submitbutton {
+    margin-left: 843px;
+    width: 150px;
+    height: 50px;
+    margin-bottom: 30px;
+    color: black;
+    border-style: solid;
+    transition: 0.15s;
+    border-width: 1px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.submitbutton:hover {
+    background-color: rgb(146, 146, 146);
+}
+
+.submitbutton:active {
+    background-color: rgb(85, 85, 85);
+    color: white;
+}
+
+.postWrapper {
+    display: flex;
+    align-items: flex-start;  
+    margin-top: 10px;
+}
+
+.blogPost {
+    border: 1px solid #000000;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: #f9f9f9;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    white-space: pre-wrap;
+    overflow: hidden;
+    max-height: 200px;
+    width: 900px;
+    margin-left: 57px;
+}
+
+.removeButton {
+    padding: 5px 10px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.removeButton:hover {
+    background-color: darkred;
+}
+
+
+
+
+.end {
+    background-color: rgb(255, 255, 255);
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.endpic {
+    height: 85px;
+    width: 265px;
+    padding-top: 10px;
+
+}
+
+.copy {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.endl {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    width: 300px;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+
+.endm {
+    width: 300px;
+}
+
+.endpics {
+    height: 30px;
+    margin-top: 20px;
+}
+
+.endpar {
+    width: 90px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.undertext {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+}

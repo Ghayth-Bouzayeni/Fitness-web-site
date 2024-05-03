@@ -1,0 +1,118 @@
+/* Styles pour le conteneur du quiz */
+.quiz-container {
+    width: 60%;
+    margin-left: 20%;
+    padding: 20px;
+    background-color: #ece2d5;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    margin-top: 74px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+/* Styles pour l'introduction du quiz */
+.quiz-intro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.quiz-intro button {
+    padding: 10px 20px;
+    font-size: 25px;
+    background-color: #1c1b15;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+/* Styles pour les questions du quiz */
+.question {
+    display: none; /* Masquer toutes les questions par défaut */
+    margin-bottom: 20px;
+}
+
+.question.active {
+    display: block; /* Afficher la question active */
+}
+
+.question p {
+    font-weight: bold;
+    font-size: 30px;
+}
+/* Styles pour les cases à cocher radio */
+.question input[type="radio"] {
+    display: none; /* Masquer la case à cocher par défaut */
+}
+
+/* Styles pour personnaliser l'apparence des cases à cocher */
+.question input[type="radio"] + label {
+    cursor: pointer;
+    display: block;
+    font-size: 16px;
+    line-height: 20px;
+    position: relative;
+    padding-left: 30px; /* Espace à gauche du label pour la case à cocher */
+}
+
+/* Styles pour la visualisation de la case à cocher */
+.question input[type="radio"] + label:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #1c1b15; /* Couleur de la bordure */
+    border-radius: 50%; /* Rendre la forme ronde */
+}
+
+/* Styles pour afficher la case à cocher lorsqu'elle est sélectionnée */
+.question input[type="radio"]:checked + label:before {
+    background-color: #1c1b15; /* Couleur de fond lorsque sélectionnée */
+}
+
+/* Styles pour les résultats du quiz */
+.quiz-results {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.quiz-results h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.quiz-results p {
+    font-size: 18px;
+}
+
+form label {
+    display: flex;
+    margin-top: 10px;
+    font-size: 27px;
+}
+
+#nextq,#submitq{
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #1c1b15;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}#q1 {
+    background-image: url(chemin/vers/votre/image.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 24%;
+    height: 311px;
+    border-radius: 14px;
+    margin-left: 585px;
+    margin-top: -249px;
+    position: absolute;
+}
